@@ -40,6 +40,22 @@ public class CalculadoraSimples{
 
             }else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração -- \n");
+            //Kauan
+            System.out.println("\n\t\t\t -- Subtração --\n");
+
+            //Entrada
+            System.out.print("Informe N1: ");
+            n1 = entrada.nextInt();
+            
+            System.out.print("Informe N2:");
+            n2 = entrada.nextInt();
+
+            //Processamento
+            total = n1 - n2;
+
+            //Saída
+            System.out.println(n1 + " - " + n2 + " = " + total);
+
             }else if(op == 3){
                 System.out.println("\n\t\t\t -- Multiplicação -- \n");
             }else if(op == 4){
