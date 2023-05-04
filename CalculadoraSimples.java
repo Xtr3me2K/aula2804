@@ -24,6 +24,20 @@ public class CalculadoraSimples{
 
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma --\n");
+
+                    //Leticia
+                    //Entrada
+                    System.out.println("Informe n1");
+                    n1 = entrada.nextInt();
+                    System.out.println("Informe n2");
+                    n2 = entrada.nextInt();
+
+                    //Processamento
+                    total = n1+n2;
+
+                    //Saída
+                    System.out.printf("%d + %d = %d" , n1, n2, total);
+
             }else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração -- \n");
             }else if(op == 3){
